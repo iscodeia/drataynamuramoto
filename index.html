@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Proposta Comercial — Vídeo + Produtos na Home</title>
+    <title>Proposta Comercial — Vídeo + Produtos na Home - Spitter</title>
 
     <style>
         * {
@@ -29,10 +29,6 @@
             overflow: hidden;
         }
 
-        /* =========================
-           HEADER
-        ========================= */
-
         .header {
             padding: 35px 50px;
             border-bottom: 1px solid #eeeeee;
@@ -56,9 +52,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #999;
-            font-size: 12px;
-            text-align: center;
             background: #fafafa;
         }
 
@@ -91,10 +84,6 @@
             font-size: 18px;
             font-weight: 600;
         }
-
-        /* =========================
-           HERO
-        ========================= */
 
         .hero {
             padding: 65px 50px 55px;
@@ -129,10 +118,6 @@
             color: #bdbdbd;
         }
 
-        /* =========================
-           CONTENT
-        ========================= */
-
         .content {
             padding: 55px 50px;
         }
@@ -154,10 +139,6 @@
             font-size: 25px;
             font-weight: 600;
         }
-
-        /* =========================
-           SERVICES
-        ========================= */
 
         .services {
             display: grid;
@@ -211,10 +192,6 @@
             font-weight: bold;
         }
 
-        /* =========================
-           ADMIN
-        ========================= */
-
         .admin-box {
             padding: 30px;
             background: #f7f7f7;
@@ -249,10 +226,6 @@
             margin-right: 8px;
             color: #111;
         }
-
-        /* =========================
-           BONUS
-        ========================= */
 
         .bonus {
             position: relative;
@@ -304,10 +277,6 @@
             font-weight: normal;
         }
 
-        /* =========================
-           INVESTMENT
-        ========================= */
-
         .investment {
             padding: 40px;
             border-radius: 14px;
@@ -351,9 +320,24 @@
             font-weight: 600;
         }
 
-        /* =========================
-           FOOTER
-        ========================= */
+        /* PRAZO */
+
+        .deadline {
+            margin-top: 18px;
+            padding: 14px 18px;
+            border: 1px solid #e5e5e5;
+            border-radius: 10px;
+            background: #fafafa;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 13px;
+            color: #555;
+        }
+
+        .deadline strong {
+            color: #171717;
+        }
 
         .footer {
             padding: 30px 50px;
@@ -364,10 +348,6 @@
             font-size: 11px;
             color: #999;
         }
-
-        /* =========================
-           RESPONSIVE
-        ========================= */
 
         @media (max-width: 700px) {
 
@@ -430,6 +410,10 @@
                 font-size: 34px;
             }
 
+            .deadline {
+                align-items: flex-start;
+            }
+
             .footer {
                 padding: 25px;
                 flex-direction: column;
@@ -442,22 +426,18 @@
 
 <div class="proposal">
 
-    <!-- =========================
-         LOGOS
-    ========================== -->
+    <!-- LOGOS -->
 
     <header class="header">
 
         <div class="logos">
 
-            <!-- SUA LOGO -->
             <div class="logo-box">
                 <img src="Group 8.png" alt="Sua empresa">
             </div>
 
             <div class="logo-separator"></div>
 
-            <!-- LOGO DO CLIENTE -->
             <div class="logo-box">
                 <img src="logospitter.png.webp" alt="Cliente">
             </div>
@@ -472,9 +452,7 @@
     </header>
 
 
-    <!-- =========================
-         HERO
-    ========================== -->
+    <!-- HERO -->
 
     <section class="hero">
 
@@ -493,9 +471,7 @@
     </section>
 
 
-    <!-- =========================
-         CONTENT
-    ========================== -->
+    <!-- CONTENT -->
 
     <main class="content">
 
@@ -506,8 +482,6 @@
 
 
         <div class="services">
-
-            <!-- SERVIÇO 01 -->
 
             <div class="service">
 
@@ -529,8 +503,6 @@
 
             </div>
 
-
-            <!-- SERVIÇO 02 -->
 
             <div class="service">
 
@@ -617,14 +589,19 @@
                 <h2>
                     Desenvolvimento completo do projeto
                 </h2>
+
+                <div class="deadline">
+                    ⏱ <strong>Prazo de desenvolvimento:</strong>
+                    até 3 dias úteis
+                </div>
             </div>
 
             <div class="price">
 
-                <span>Valor</span>
+                <span>Valor do projeto</span>
 
                 <strong>
-                    R$ 470,00
+                    R$ 520,00
                 </strong>
 
             </div>
